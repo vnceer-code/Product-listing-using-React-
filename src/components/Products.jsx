@@ -22,7 +22,7 @@ const Products = ({ product }) => {
                     <Card.Text>
                         Category : {product.category}
                     </Card.Text>
-                    <Button variant="outline-primary" onClick={console.log(product)} className='absolute bottom-9'>Add to Cart</Button>
+                    <Button variant="outline-primary" onClick={() => console.log(product.name)} className='absolute bottom-9'>Add to Cart</Button>
                 </Card.Body>
             </Card>
         </div>
